@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>לומדים יחד | קהילות</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-directory="community">
+  <header class="site-header"><div class="shell header-inner"><a class="brand" href="index.html"><span class="brand-mark">ע</span><span>אל עמי <small>לומדים יחד</small></span></a><a class="header-back" href="index.html">כל המאגרים ←</a></div></header>
+  <main class="shell list-main">
+    <div class="breadcrumb">לומדים יחד / קהילות</div>
+    <div class="list-intro"><div><div class="intro-kicker">מאגר קהילות וארגונים</div><h1>קהילות</h1><p>רשימה אזורית מתוך נתוני „לומדים יחד”.</p></div><div class="total-box"><strong id="totalCount">—</strong><span>רשומות במאגר</span></div></div>
+    <section class="directory-panel" aria-label="רשימת קהילות">
+      <div class="toolbar"><label class="search-field"><span>חיפוש קהילה או יישוב</span><input id="directorySearch" type="search" placeholder="הקלידו שם, סוג או יישוב" autocomplete="off"></label><div class="result-count" id="resultCount" aria-live="polite"></div></div>
+      <div class="region-bar" id="regionFilters" aria-label="סינון לפי אזור"></div>
+      <div class="table-wrap"><table><thead><tr><th>קהילה או ארגון</th><th>סוג ברשימה</th><th>יישוב</th><th>אזור ברשימה</th><th>אנשי קשר</th></tr></thead><tbody id="directoryRows"></tbody></table></div>
+      <div class="list-footer"><span id="shownCount"></span><button id="loadMore" type="button" class="load-more" hidden>הציגו עוד</button></div>
+    </section>
+    <p class="source-note" id="sourceNote">הרשימה כוללת כרגע את כל סוגי הרשומות שאינן מסומנות כבית ספר. שמות חסרים מסומנים במפורש.</p>
+  </main>
+  <script src="public-data.js"></script><script>if(location.protocol==='file:'||location.hostname==='localhost'||location.hostname==='127.0.0.1')document.write('<scr'+'ipt src="data.js"></scr'+'ipt>');</script><script src="app.js"></script>
+</body>
+</html>
